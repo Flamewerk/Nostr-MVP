@@ -26,7 +26,7 @@
 
 
               <div>
-                <button type="submit" class="text-black flex w-full justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium shadow-sm hover:bg-HighlightSecondary focus:outline-none focus:ring-2 focus:ring-HighlightPrimary focus:ring-offset-2">Sign in</button>
+                <NuxtLink :to="localePath('/inventory')" class="text-black flex w-full justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium shadow-sm hover:bg-HighlightSecondary focus:outline-none focus:ring-2 focus:ring-HighlightPrimary focus:ring-offset-2">Sign in</NuxtLink>
               </div>
             </form>
           </div>

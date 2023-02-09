@@ -25,7 +25,8 @@ Start Selling, Browse The marketplace
 ::
 
 
-Recently Added Products: 
+:ComponentsStoreNewestStores
 
-Recently Started Shops:  (Delayed By 1 hour) :
-( List Time )
+:ComponentsStoreNewestProducts
+
+

@@ -1,3 +1,4 @@
+
 <template>
   <div class="bg-white">
     <!-- Mobile menu -->
@@ -378,6 +379,11 @@
 </template>
 
 <script setup>
+
+definePageMeta({
+    layout: false,
+});
+
 import { ref } from 'vue'
 import {
   Dialog,
@@ -405,8 +411,6 @@ import { ChevronDownIcon } from '@heroicons/vue/20/solid'
 
 const currencies = ['CAD', 'USD', 'AUD', 'EUR', 'GBP']
 const navigation = {
-
-
   categories: [
     {
       name: 'Women',
@@ -474,8 +478,6 @@ const navigation = {
   ],
 }
 const categories = [
-
-
   {
     name: 'New Arrivals',
     href: '#',
@@ -499,8 +501,6 @@ const categories = [
   { name: 'Sale', href: '#', imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-01-category-03.jpg' },
 ]
 const collections = [
-
-
   {
     name: 'Handcrafted Collection',
     href: '#',
@@ -524,8 +524,6 @@ const collections = [
   },
 ]
 const footerNavigation = {
-
-
   shop: [
     { name: 'Bags', href: '#' },
     { name: 'Tees', href: '#' },
@@ -556,3 +554,4 @@ const footerNavigation = {
 
 const mobileMenuOpen = ref(false)
 </script>
+
