@@ -12,21 +12,6 @@
           <NuxtLink :to="localePath('/')" class="flex">
             <span class="sr-only">{{ project.$state.name }}</span>
 
-            <img
-              :class="[project.$state.logodark ? 'block dark:hidden' : '', '']"
-              :src="'/logo/' + project.$state.logoimage"
-              :alt="project.$state.name"
-              width="40"
-              height="40"
-            />
-            <img
-              v-if="project.$state.logodark"
-              class="hidden dark:block"
-              :src="'/logo/' + project.$state.logodarkimage"
-              :alt="project.$state.name"
-              width="40"
-              height="40"
-            />
 
             <span
               v-if="project.$state.textlogo"

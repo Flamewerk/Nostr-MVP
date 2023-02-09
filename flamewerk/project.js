@@ -1,11 +1,11 @@
 import {ArrowPathIcon,ChartBarIcon,CursorArrowRaysIcon,DocumentChartBarIcon,Squares2X2Icon,BookmarkSquareIcon,BriefcaseIcon,BuildingOfficeIcon,CheckCircleIcon,ComputerDesktopIcon,GlobeAltIcon,InformationCircleIcon,NewspaperIcon,PhoneIcon,PlayIcon,ShieldCheckIcon,UserGroupIcon,} from '@heroicons/vue/24/outline'
 export const useSettings = defineStore("project", {
   state: () => ({
-    name: "Flamewerk",
-    tagline: "Making the world a better place through constructing elegant hierarchies.",
+    name: "Shop 'N Go",
+    tagline: "A Nostr based commerce platform",
 
-    textlogo: "Flamewerk",
-    logoimage: "light.webp",
+    textlogo: "🛍️ Shop 'N Go",
+    logoimage: "",
     logodark: false,    
     logodarkimage: "dark.webp",
 
@@ -38,7 +38,11 @@ export const useSettings = defineStore("project", {
     Headernavigation : { 
 
       basicmenu : [
-        {name: 'New Page', href: '/new-page',icon: CursorArrowRaysIcon,},
+        {name: 'Start Selling', href: '/start',icon: CursorArrowRaysIcon,},
+        {name: 'My Store', href: '/mystore',icon: CursorArrowRaysIcon,},
+        {name: 'Marketplace', href: '/marketplace',icon: CursorArrowRaysIcon,},
+        {name: 'Learn More', href: '/learn',icon: CursorArrowRaysIcon,},
+        {name: 'Policy', href: '/policy',icon: CursorArrowRaysIcon,},
       ],
       // Minimal Header
       resources : [
