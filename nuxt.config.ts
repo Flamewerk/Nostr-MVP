@@ -27,10 +27,10 @@ export default defineNuxtConfig({
 
   pwa: {
     meta: {
-      title: "Flamewerk: Nuxt3 Startup Theme ",
+      title: "Shop N Go: Decentral Ecommerce ",
       name: "Flamewerk",
       description:
-        "🔥  Build Modern Webapps for Free Forever with one easy config, Deploy in less then 5min on any cloudprovider. Create a website, application, shop or community with super documentation and our community.",
+        "🔥  Start Selling Immediatly on a NOSTR based decentral ecommerce platform",
       ogImage: {
         path: "https://flamewerk.com/Thumbnail.png",
         width: 1200,
