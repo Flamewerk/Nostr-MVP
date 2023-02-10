@@ -20,7 +20,10 @@ description: 'meta description of the page'
 
 ### What about my privacy ?
 
-### 
+### Whats the incentive to run your own relay ?
+
+Goverment monitoring, running your own marketplace, your self hosted store runs faster.
+Just good old fashioned support :-)
 
 
 
